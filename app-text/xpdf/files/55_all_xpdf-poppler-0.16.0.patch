@@ -1,0 +1,12 @@
+diff -ur xpdf-3.02-poppler-old/XPDFViewer.cc xpdf-3.02-poppler/XPDFViewer.cc
+--- xpdf-3.02-poppler-old/XPDFViewer.cc	2011-01-17 05:04:27.000000000 +0100
++++ xpdf-3.02-poppler/XPDFViewer.cc	2011-01-17 05:08:06.000000000 +0100
+@@ -3443,7 +3443,7 @@
+     lastPage = doc->getNumPages();
+   }
+ 
+-  psOut = new PSOutputDev(psFileName->getCString(), doc->getXRef(),
++  psOut = new PSOutputDev(psFileName->getCString(), doc, doc->getXRef(),
+ 			  doc->getCatalog(),
+ 			  NULL,
+ 			  firstPage, lastPage, psModePS);
