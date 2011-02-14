@@ -11,7 +11,7 @@ DESCRIPTION="vim plugin: Code snippets engine for Vim, with snippets library. "
 HOMEPAGE="http://www.vim.org/scripts/script.php?script_id=2611"
 SRC_URI="http://www.vim.org/scripts/download_script.php?src_id=14395 -> ${PF}.tgz"
 LICENSE=""
-KEYWORDS="~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 S="${WORKDIR}"
