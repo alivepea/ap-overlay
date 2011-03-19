@@ -52,6 +52,7 @@ src_configure() {
 }
 
 src_compile() {
+	tc-export CXX
 	emake || die
 }
 

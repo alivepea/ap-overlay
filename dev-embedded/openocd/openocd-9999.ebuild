@@ -58,6 +58,7 @@ src_compile() {
 		--enable-at91rm9200 \
 		--enable-gw16012 \
 		--enable-oocd_trace \
+		--enable-jlink \
 		$(use_enable jlink) \
 		$(use_enable rlink) \
 		$(use_enable vslink) \
